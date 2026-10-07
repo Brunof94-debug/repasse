@@ -6,7 +6,7 @@ A new, open-source prototype built for Crypto World's Fair 2026 by Bruno Fernand
 
 ## Try the prototype
 
-Public demo: https://brunof94-debug.github.io/repasse/ (deployment being prepared).
+[Try the prototype](https://brunof94-debug.github.io/repasse/) · [English interface](https://brunof94-debug.github.io/repasse/?lang=en) · [English pitch, 2:31](https://brunof94-debug.github.io/repasse/pitch.html) · [Working demo, 2:04](https://brunof94-debug.github.io/repasse/demo.html).
 
 **Solana devnet only. Test SOL and Circle test USDC have no financial value.** This repository and demo are educational hackathon materials, not a commercial payment service.
 
@@ -17,7 +17,7 @@ Public demo: https://brunof94-debug.github.io/repasse/ (deployment being prepare
 5. Verify the signature against the invoice. A finalized receipt requires the expected network, successful execution, exact Circle mint, six decimal precision, signer, source, recipients, amounts, balance changes, reference, digest and validity window.
 6. Export CSV or JSON and independently inspect the public Solana Explorer transaction.
 
-The public proof fixture is being prepared. Once added, visitors can verify a real prior devnet payment without creating a wallet or using a faucet.
+Select **See a real test payment** to load an actual prior devnet payment, then verify it without a wallet or faucet. The transaction finalized at slot **508446011** and credited **Design 4 / Dev 3 / Content 2 test USDC**, totaling **9**. [Public transaction and reproduction](docs/PROOF.md). Changing the invoice title while checking the same signature was rejected because the fingerprint no longer matched.
 
 ## What is implemented
 
@@ -27,7 +27,8 @@ The public proof fixture is being prepared. Once added, visitors can verify a re
 - Direct, atomic Circle devnet USDC splits using existing SPL Token and Memo programs.
 - Strict RPC verification; pending, confirmed, finalized, invalid and unavailable states remain distinct.
 - Reference-based discovery with bounded history and duplicate-payment warnings.
-- Human-readable receipt, Explorer link and safe CSV export.
+- Human-readable receipt, Explorer link and safe CSV/JSON exports from an immutable validated receipt; changing the signature invalidates the displayed receipt.
+- Form drafts survive language and wallet actions; back/forward navigation restores the invoice shown in the URL.
 - Meaningful tests for wrong networks, wrong tokens, incorrect amounts, missing or changed memos, failed transactions, altered balances, missing destinations, finality and duplicate payment discovery.
 
 ## Run locally
@@ -46,6 +47,8 @@ npm run preview
 ```
 
 The Vite base is relative, so the build supports a GitHub Pages repository subpath. The deployment workflow tests and builds before publishing.
+
+The final local verification passed **23 tests**, TypeScript checking and production compilation. The two H.264/AAC videos decoded completely; measured durations are **151.04 seconds** for the pitch and **123.97 seconds** for the demo. The demo is an edited walkthrough of real captured steps, with synthetic English narration. Media is copied from `docs/media` into the published build.
 
 ## Audit a real receipt
 
