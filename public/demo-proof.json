@@ -1,0 +1,27 @@
+{
+  "invoice": {
+    "id": "dd13b6cf-cd21-4d1e-8419-077fd113adc1",
+    "reference": "EtGQHhE7NQw6CuVe7HQaPKbLdX3AK8CUGHNxWx65jRCi",
+    "title": "Brand identity · Studio 003",
+    "createdAt": "2026-10-07T11:42:25.968Z",
+    "expiresAt": "2026-10-14T11:42:25.968Z",
+    "recipients": [
+      {
+        "name": "Design",
+        "address": "DmiEoX2pvQDrjSjfsfGJxFSzFLBwWwA9w9LueyNw3WFC",
+        "amountAtomic": "4000000"
+      },
+      {
+        "name": "Dev",
+        "address": "Fz2MggnL9uYWDHQCMd5QvAnAqXgnXsGU62vgfHMerAcd",
+        "amountAtomic": "3000000"
+      },
+      {
+        "name": "Content",
+        "address": "BvMVwzzvrQUhyJT5RfUpnqeKuJ8Ywhpnpizk8vVLnVm2",
+        "amountAtomic": "2000000"
+      }
+    ]
+  },
+  "signature": "2ypiteP4b9kdMAgNNpoVh5XwWfR8wH1rFRQojsZYTThXKDxAkBzXsMiy8P5n3mDqSn5rzGbTMf1gzVHg5iyTTFEn"
+}
