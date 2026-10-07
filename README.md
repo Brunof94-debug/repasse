@@ -77,6 +77,8 @@ There is no custom on-chain program. Existing Solana programs handle all-or-noth
 
 [Global pitch](docs/GLOBAL-PITCH.md), [regional pitch](docs/PITCH.md), [demo](docs/DEMO.md), [business hypotheses](docs/BUSINESS.md), [submission status](docs/SUBMISSION.md). These documents explicitly distinguish unfinished submission steps from completed evidence. The global entry and all three videos are in English.
 
+**Both entries were confirmed on 7 October 2026:** [Colosseum global project](https://colosseum.com/arena/projects/repasse) and [Superteam Brasil x SolarEcoFund](https://superteam.fun/earn/listing/side-track-superteam-brasil). Submitted videos: [global pitch](https://youtu.be/LW3WnEtRoE4), [regional pitch](https://youtu.be/Dety0pZjV2Y), [product demo](https://youtu.be/R_PfSJy_BXA). Selection and any winner verification are still pending.
+
 Original Repasse development began on 7 October 2026, inside the competition window. No original application code was reused from the previous Week 1 project. OpenAI Codex assisted implementation, tests and materials; Bruno is the entrant. No invented customer validation or professional credentials.
 
 ## Dependencies and license
