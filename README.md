@@ -6,7 +6,7 @@ A new, open-source prototype built for Crypto World's Fair 2026 by Bruno Fernand
 
 ## Try the prototype
 
-[Try the prototype](https://brunof94-debug.github.io/repasse/) · [English interface](https://brunof94-debug.github.io/repasse/?lang=en) · [English pitch, 2:31](https://brunof94-debug.github.io/repasse/pitch.html) · [Working demo, 2:04](https://brunof94-debug.github.io/repasse/demo.html).
+[Try the prototype](https://brunof94-debug.github.io/repasse/) · [English interface](https://brunof94-debug.github.io/repasse/?lang=en) · [Global pitch, 2:00](https://brunof94-debug.github.io/repasse/global-pitch.html) · [Brazil track pitch, 2:31](https://brunof94-debug.github.io/repasse/pitch.html) · [Working demo, 2:04](https://brunof94-debug.github.io/repasse/demo.html).
 
 **Solana devnet only. Test SOL and Circle test USDC have no financial value.** This repository and demo are educational hackathon materials, not a commercial payment service.
 
@@ -48,7 +48,7 @@ npm run preview
 
 The Vite base is relative, so the build supports a GitHub Pages repository subpath. The deployment workflow tests and builds before publishing.
 
-The final local verification passed **23 tests**, TypeScript checking and production compilation. The two H.264/AAC videos decoded completely; measured durations are **151.04 seconds** for the pitch and **123.97 seconds** for the demo. The demo is an edited walkthrough of real captured steps, with synthetic English narration. Media is copied from `docs/media` into the published build.
+The final local verification passed **23 tests**, TypeScript checking and production compilation. All three H.264/AAC videos decoded completely; measured durations are **119.750 seconds** for the global pitch, **151.04 seconds** for the regional pitch and **123.97 seconds** for the demo. The videos use original slides and real captured steps, with synthetic English narration. Media is copied from `docs/media` into the published build.
 
 ## Audit a real receipt
 
@@ -75,9 +75,9 @@ There is no custom on-chain program. Existing Solana programs handle all-or-noth
 
 ## Hackathon materials
 
-[Pitch](docs/PITCH.md), [demo](docs/DEMO.md), [business hypotheses](docs/BUSINESS.md), [submission draft](docs/SUBMISSION.md). These documents explicitly distinguish unfinished submission steps from completed evidence. The final global entry and both videos will be in English.
+[Global pitch](docs/GLOBAL-PITCH.md), [regional pitch](docs/PITCH.md), [demo](docs/DEMO.md), [business hypotheses](docs/BUSINESS.md), [submission status](docs/SUBMISSION.md). These documents explicitly distinguish unfinished submission steps from completed evidence. The global entry and all three videos are in English.
 
-Original Repasse development began on 7 October 2026, inside the competition window. No original application code was reused from the previous Week 1 project. OpenAI Codex assisted implementation, tests and materials; Bruno is the entrant and reviews the submission. No invented customer validation or professional credentials.
+Original Repasse development began on 7 October 2026, inside the competition window. No original application code was reused from the previous Week 1 project. OpenAI Codex assisted implementation, tests and materials; Bruno is the entrant. No invented customer validation or professional credentials.
 
 ## Dependencies and license
 
