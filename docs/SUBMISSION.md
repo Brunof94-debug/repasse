@@ -1,16 +1,16 @@
 # REPASSE — submission drafts
 
-Status: **Ready for entrant review; not submitted.** Repository and app published; a real devnet payment has been audited and verified from the public app. English pitch (2:31) and demo (2:04) are published and browser playback was checked. Colosseum/Earn account creation, eligibility confirmation and both submissions remain **PENDING**.
+Status: **Submission drafts in progress; not submitted.** Repository and app published; a real devnet payment has been audited and verified from the public app. English regional pitch (2:31) and demo (2:04) are published and browser playback was checked. A separate global pitch is ready at exactly 120.000 seconds. Eligibility is confirmed. Colosseum and Earn accounts/profiles are created; Colosseum hackathon registration, Code of Ethics acceptance and the required Telegram contact are complete. The project draft exists on Colosseum. Final YouTube video hosting and both submissions remain **PENDING**.
 
 ## Founder profile
 
-**Bruno Fernandes · Brazil · Solo builder · Intermediate programming experience.** GitHub: [Brunof94-debug](https://github.com/Brunof94-debug).
+**Bruno Fernandes · Brazil · Solo builder · Intermediate programming experience · University degree in Accounting.** GitHub: [Brunof94-debug](https://github.com/Brunof94-debug).
 
 English bio:
 
 > I'm Bruno Fernandes, a solo builder based in Brazil with intermediate programming experience. I'm developing REPASSE with AI assistance to explore how small studios can settle collaborators' shares and verify a job payment through Solana. My focus is a functional devnet prototype and customer validation.
 
-No other employment, education, startup experience or professional credentials have been supplied.
+The entrant confirmed a higher-education degree in Ciências Contábeis and that he is not currently studying. No employment history, startup experience or additional professional credentials have been supplied.
 
 ## Global submission — English
 
@@ -41,11 +41,12 @@ No other employment, education, startup experience or professional credentials h
 |---|---|
 | Repository | [Brunof94-debug/repasse](https://github.com/Brunof94-debug/repasse) — created |
 | App | [English interface](https://brunof94-debug.github.io/repasse/?lang=en) — published and verified |
-| Logo | Present in public/repasse-mark.svg |
+| Logo | Published original SVG and 512px PNG in public/repasse-mark.svg and public/repasse-mark.png |
 | Real payment | [Proof, transaction and audit](PROOF.md) — completed |
-| English pitch, 2–3 minutes | [Watch pitch](https://brunof94-debug.github.io/repasse/pitch.html) — 151.04 seconds, public playback verified |
+| English global pitch, maximum 2 minutes | [Global pitch player](https://brunof94-debug.github.io/repasse/global-pitch.html) — 120.000 seconds, local export verified; publication in progress |
+| English regional pitch, 2–3 minutes | [Watch pitch](https://brunof94-debug.github.io/repasse/pitch.html) — 151.04 seconds, public playback verified |
 | English demo, maximum 3 minutes | [Watch demo](https://brunof94-debug.github.io/repasse/demo.html) — 123.97 seconds, public playback verified |
-| Colosseum project link | **PENDING global submission** |
+| Colosseum project link | [REPASSE draft](https://colosseum.com/arena/projects/repasse) — **not submitted yet** |
 | Product social accounts | None supplied or created |
 
 ## Superteam Brasil / SolarEcoFund — Portuguese
@@ -63,8 +64,10 @@ Protótipo em Solana devnet para pequenos estúdios que recebem USDC e trabalham
 
 ## Remaining registration/submission steps
 
-- Bruno confirms age eligibility as of **14 September 2026**, financing and accurate profile information; those details have not been supplied.
-- Create the Colosseum and Earn accounts and review their official terms/privacy. No accounts or submissions have been created here.
+- **Confirmed by the entrant:** residence in Brazil, age 18 or older on **14 September 2026**, intermediate programming experience, and no external financing for REPASSE.
+- **Completed:** Colosseum account and Arena profile as **brunof94_debug**, Crypto World's Fair registration (Brazil/Solana), Code of Ethics acceptance, submission founder profile, and Earn account/profile with the same public handle. The entrant authorized the official terms/privacy and global rules. No project submission has been sent.
+- **Video requirements verified in the actual form:** Colosseum requires YouTube/Loom/Vimeo demo up to 3 minutes and a separate pitch up to 2 minutes. The Brazilian listing requests a 2–3 minute pitch. A global variant is ready at exactly 120.000 seconds; the 2:31 regional pitch remains available.
+- **Contact requirement:** The entrant's Telegram username was accepted by Colosseum.
 - Submit the reviewed English global materials, then the Brazilian track with the Colosseum project link.
 - Deadline for both: **13 October 2026, 03:59 Brasília** (12 October, 23:59 California).
 - Mainnet payout wallet, KYC and prize-acceptance documents are **PENDING** if required. A test signing session does not complete these requirements.

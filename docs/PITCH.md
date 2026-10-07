@@ -1,6 +1,8 @@
 # REPASSE — English pitch
 
-Status: **Final video exported and reviewed locally.** Measured duration: **151.04 seconds (2:31)**, within the 2–3 minute requirement. H.264/AAC file decoded completely. Narration and global video content are English.
+Status: **Final regional video exported and reviewed locally.** Measured duration: **151.04 seconds (2:31)**, within the regional 2–3 minute requirement. H.264/AAC file decoded completely. Narration and video content are English.
+
+The global Colosseum form requires a pitch of at most two minutes. Use the separate [global pitch](GLOBAL-PITCH.md) for that form; this regional video remains unchanged.
 
 [Repository](https://github.com/Brunof94-debug/repasse) · [Real payment proof](PROOF.md) · [English app](https://brunof94-debug.github.io/repasse/?lang=en) · [Watch the pitch](https://brunof94-debug.github.io/repasse/pitch.html). Public deployment and actual browser playback verified on 7 October 2026; duration loaded as 151.04 seconds, playback advanced, and no media error was reported.
 
