@@ -1,8 +1,8 @@
 # REPASSE — Global English pitch
 
-Status: **Local MP4 exported and frames reviewed.** Exact container and video duration: **120.000 seconds (2:00)**, meeting the global Colosseum form's **two-minute maximum** and the FAQ's two-minute lower bound. The final card is held to reach that duration; narration was not accelerated. H.264/AAC, 1920 × 1080, 24 fps; complete decoding passed. Parent playback review, publication and hosted links are **PENDING**. The regional [2:31 pitch](PITCH.md) remains available unchanged.
+Status: **Published, playback verified and submitted to Colosseum on 7 October 2026.** Container and video duration: **119.750 seconds (approximately 2:00)**, with a short margin below the global form's two-minute maximum. H.264/AAC, 1920 × 1080, 24 fps; complete decoding and last-frame checks passed. The public site player advanced without media errors. The unlisted YouTube player loaded a duration of **119.781 seconds** and advanced past 17 seconds without error. The regional [2:31 pitch](PITCH.md) remains available separately.
 
-[Repository](https://github.com/Brunof94-debug/repasse) · [Real payment proof](PROOF.md) · Planned player: [global-pitch.html](https://brunof94-debug.github.io/repasse/global-pitch.html). **Publication and public playback: PENDING.**
+[Watch on YouTube](https://youtu.be/LW3WnEtRoE4) · [Site player](https://brunof94-debug.github.io/repasse/global-pitch.html) · [Repository](https://github.com/Brunof94-debug/repasse) · [Real payment proof](PROOF.md).
 
 ## Final narration
 
@@ -16,5 +16,5 @@ Status: **Local MP4 exported and frames reviewed.** Exact container and video du
 | 6 | **“Demand is still unvalidated. We have no validated users or revenue. Next, we will interview Brazilian studios that already receive stablecoins and test whether direct collaborator payouts reduce coordination work.”** | Proposed interviews and pilots, labeled as a hypothesis. |
 | 7 | **“REPASSE: one job, every agreed share, one verifiable receipt.”** | REPASSE closing slide. |
 
-The video uses original slides and real captured devnet steps, with synthetic English narration. It is an edited presentation. Frames extracted from the final MP4 were reviewed at 0:06, 0:40, 1:00, 1:14, 1:20, 1:29 and 1:59. The original invoice review is labeled as reopened, without a second payment. Explorer shows the actual finalized summary, 4 / 3 / 2 credits and matching memo in sequence. The demonstrated tokens have no monetary value. Customer demand, users and revenue remain unvalidated.
+The video uses original slides and real captured devnet steps, with synthetic English narration. It is an edited presentation. The scenes were visually reviewed, and the replacement file's last frame was checked directly. The original invoice review is labeled as reopened, without a second payment. Explorer shows the actual finalized summary, 4 / 3 / 2 credits and matching memo in sequence. The demonstrated tokens have no monetary value. Customer demand, users and revenue remain unvalidated.
 

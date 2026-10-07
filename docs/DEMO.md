@@ -1,8 +1,10 @@
 # REPASSE — English product demo
 
-Status: **Final video exported and reviewed locally.** Measured duration: **123.97 seconds (2:04)**, below the three minute maximum. H.264/AAC file decoded completely. A real 9 test-USDC split has been audited. This video is an **edited walkthrough of actual captured steps**, with synthetic English narration; it is not a continuous screen recording.
+Status: **Published, playback verified and included in both submissions on 7 October 2026.** Measured local duration: **123.97 seconds (2:04)**, below the three minute maximum. H.264/AAC file decoded completely. The unlisted YouTube player loaded **124.001 seconds**, advanced past 24 seconds and reported no media error. A real 9 test-USDC split has been audited. This video is an **edited walkthrough of actual captured steps**, with synthetic English narration; it is not a continuous screen recording.
 
 [Repository](https://github.com/Brunof94-debug/repasse) · [Payment proof and reproduction](PROOF.md) · [English app](https://brunof94-debug.github.io/repasse/?lang=en) · [Watch the demo](https://brunof94-debug.github.io/repasse/demo.html). Public deployment and actual browser playback verified on 7 October 2026; duration loaded as 123.98 seconds, playback advanced, and no media error was reported.
+
+[Watch the submitted YouTube demo](https://youtu.be/R_PfSJy_BXA).
 
 ## Demonstrated payment
 
