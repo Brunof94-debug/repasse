@@ -468,13 +468,18 @@ async function verifyOnEndpoint(invoice: Invoice, signature: string, options: Ne
     if (info.mint !== DEVNET_USDC_MINT || amount.decimals !== USDC_DECIMALS || integerAmount(amount.amount) !== expected) {
       throw new InvalidProof('Mint, precisão ou valor de um dos repasses não corresponde à cobrança.');
     }
-    if (typeof info.authority !== 'string' || typeof info.source !== 'string' || !keys.some((key) => key.pubkey === info.authority && key.signer)) {
+    // The RPC parser labels the authority "multisigAuthority" when a readonly
+    // reference follows it. That label alone never establishes signing authority.
+    const authority = info.authority ?? info.multisigAuthority;
+    if ((info.authority && info.multisigAuthority && info.authority !== info.multisigAuthority)
+      || typeof authority !== 'string' || typeof info.source !== 'string'
+      || !keys.some((key) => key.pubkey === authority && key.signer)) {
       throw new InvalidProof('A autoridade pagadora não assinou o repasse.');
     }
-    if (sender && (sender !== info.authority || sourceAccount !== info.source)) {
+    if (sender && (sender !== authority || sourceAccount !== info.source)) {
       throw new InvalidProof('Todos os repasses devem partir da mesma conta pagadora.');
     }
-    sender = info.authority;
+    sender = authority;
     sourceAccount = info.source;
     if (canonical.recipients.some((item) => item.address === sender)) throw new InvalidProof('O pagador não pode receber seu próprio repasse nesta demonstração.');
     if (sourceAccount !== await tokenAccount(sender)) throw new InvalidProof('A origem não é a conta USDC associada do pagador.');
